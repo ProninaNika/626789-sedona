@@ -122,10 +122,44 @@
             <p class="appointment-info">Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           </section>
          <!-- Здесь будет форма -->
+         <form class="popup-form-hotel-search" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend class="search-hotels">Поиск гостиницы в Седоне</legend>
+              <p class="arrival-date-item">
+                <label for="arrival-date">Дата заезда:</label>
+                <input id="arrival-date" type="date" name="date" value="" placeholder="24 апреля 2017">
+                <button type="button" class="kalendar">Календарь</button>
+              </p>
+              <p class="departure-date-item">
+                <label for="departure-date">Дата выезда:</label>
+                <input id="departure-date" type="text" name="date" value="" placeholder="4 июля 2017">
+                <button type="button" class="kalendar">Календарь</button>
+              </p>
+              </p>
+              <p class="adults-item">
+                <label for="adults">Взрослые:</label>
+                <input id="adults" type="number" name="adults" value="">
+                <button class="number-btn number-btn-minus">Минус</button>
+                <input class="number-field" type="text" id="adults">
+                <button class="number-btn number-btn-plus">Плюс</button> 
+              </p>
+              <p class="children-item">
+                <label for="children">Дети:</label>
+                <input id="children" type="number" name="children" value="">
+                <button class="number-btn number-btn-minus">Минус</button>
+                <input class="number-field" type="text" id="children">
+                <button class="number-btn number-btn-plus">Плюс</button> 
+              </p>
+              <button class="popup-button" type="submit">Найти</button>
+            </fieldset>
+        </form> 
+
           <section class="map">
           <h2 class="visually-hidden">Как до нас добраться</h2>
-            <span class="modal-close">x</span>
-            <img class="map" src="img/map.png">
+          <p>
+            <img class="map" src="img/map.png" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+            <button class="modal-close" type="button">Закрыть</button>
+          </p>
           </section>
       </main>
 

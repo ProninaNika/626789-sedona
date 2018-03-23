@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: #ffffff;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-navigation {
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.site-navigation, 
+.advice-item {
+	list-style: none;
+	
+}
+
+.site-navigation a {
+	color: #000000;
+}
+
+.site-navigation a:hover {
+	color: #81b3d2
+}
+
+.site-navigation a:focus {
+	color: #c7c7c7;
+}
+
+.background-title {
+	text-align: center;
+}
+
+.background-title p {
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.background-title b {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: regular;
+
+}
+
+.feature-item-bg {
+	background-color: #81b3d2;
+	color: #ffffff;
+}
+
+.feature-title p {
+	font-size: 21px;
+	line-height: 21px;
+}
+
+.number span,
+.feature-subtitle p {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: regular;
+}
+
+.advice-title h3 {
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+}
+
+.advice-subtitle p {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+}	
+
+.feature-title p,
+.advice-title h3 {
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+}
+
+.number span,
+.feature-subtitle p,
+.advice-subtitle p {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+}
+
+.feature-img {
+	background-color: #cccccc;
+  	border: 7px solid #ffffff;
+}
+
+.appointment section {
+	text-align: center;
+}
+
+.appointment-item h2 {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.appointment-info p {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+}
+
+.arrival-date input {
+	font: inherit;
+	background-color: transparent;
+  	border: 2px solid #000000;
+}

@@ -56,7 +56,7 @@ a {
 .background-title b {
 	font-size: 14px;
 	line-height: 26px;
-	font-weight: regular;
+	font-weight: normal;
 
 }
 
@@ -74,7 +74,7 @@ a {
 .feature-subtitle p {
 	font-size: 14px;
 	line-height: 21px;
-	font-weight: regular;
+	font-weight: normal;
 }
 
 .advice-title h3 {
@@ -125,8 +125,43 @@ a {
 	font-weight: normal;
 }
 
-.arrival-date input {
+.index-columns {
+	background-color: #ffffff;
+
+}
+
+.arrival-date label,
+.departure-date label,
+.adults label,
+.children label {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.arrival-date input,
+.departure-date input {
 	font: inherit;
-	background-color: transparent;
-  	border: 2px solid #000000;
+	background-color: #f2f2f2;
+  	border: 0px solid #000000;
+}
+
+.search-hotels legend {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	background-color: #766357;
+	color: #000000;
+}
+
+.popup-button button {
+	font: inherit;
+
+  	text-align: center;
+  	color: #ffffff;
+  	vertical-align: middle;
+  	text-transform: uppercase;
+
+  	background-color: #81b3d2;
+  	border: none;
 }

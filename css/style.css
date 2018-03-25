@@ -18,6 +18,34 @@ a {
 	text-decoration: none;
 }
 
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Header */
+
+.nav {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	background-color: #ffffff;
+}
+
 .main-navigation {
 	font-size: 14px;
 	line-height: 26px;
@@ -44,6 +72,50 @@ a {
 	color: #c7c7c7;
 }
 
+.nav {
+	position: relative;
+}
+
+.main-header-logo {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 138px;
+	height: 70px;
+}
+
+.site-navigation {
+	margin-bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 15px 0;
+}
+
+.nav-item {
+	width: 240px;
+	text-align: center;
+}
+
+.nav-item:nth-child(3) {
+	margin-left: 240px;
+}
+
+/*background picture*/
+
+.background-picture {
+	margin-bottom: 61px;
+	margin-top: -5px;
+	text-align: center; 
+}
+
+/*body*/
+
+.background-subtitle {
+	background-color: #ffffff;
+}
+
 .background-title {
 	text-align: center;
 }
@@ -60,45 +132,102 @@ a {
 
 }
 
+.advice-item {
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+
+
+}
+
+.feature-item {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+.features {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 100%;
+}
+
 .feature-item-bg {
 	background-color: #81b3d2;
 	color: #ffffff;
+	text-align: center;
+	display: flex;
 }
 
-.feature-title p {
+.feature-image {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 100%;
+}
+
+.feature-item {
+	width: 400px;
+	padding-top: 46px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.advice-title {
 	font-size: 21px;
-	line-height: 21px;
+	line-height: 26px;
+	font-weight: 700px;
+	margin-bottom: 28px;
+
 }
 
-.number span,
-.feature-subtitle p {
+.feature-subtitle {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: normal;
 }
 
-.advice-title h3 {
-	font-size: 21px;
-	line-height: 21px;
-	font-weight: bold;
+.number {
+	margin-top: 22px;
+	margin-bottom: 22px;
 }
 
-.advice-subtitle p {
+.advice-title {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	margin-bottom: 28px;
+}
+
+.advice-item {
+	text-align: center;
+	background-image: url(img/icon-1.svg);
+}
+
+.advice-subtitle {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: normal;
 }	
 
-.feature-title p,
-.advice-title h3 {
-	font-size: 21px;
-	line-height: 21px;
-	font-weight: bold;
+.features {
+	text-align: center;
+	background-color: #eeeeee;
 }
 
-.number span,
-.feature-subtitle p,
-.advice-subtitle p {
+.feature-title,
+.advice-title {
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: 700;
+}
+
+.number,
+.feature-subtitle,
+.advice-subtitle {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: normal;
@@ -109,59 +238,290 @@ a {
   	border: 7px solid #ffffff;
 }
 
-.appointment section {
+.appointment {
 	text-align: center;
 }
 
-.appointment-item h2 {
+.appointment-item {
 	font-size: 30px;
 	line-height: 36px;
-	font-weight: bold;
+	font-weight: 700;
 }
 
-.appointment-info p {
+.appointment-info {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: normal;
 }
 
-.index-columns {
-	background-color: #ffffff;
-
-}
-
-.arrival-date label,
-.departure-date label,
-.adults label,
-.children label {
+.appointment a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 568px;
+	padding-top: 35px;
+	padding-bottom: 27px;
 	font-size: 21px;
 	line-height: 26px;
-	font-weight: bold;
-}
-
-.arrival-date input,
-.departure-date input {
-	font: inherit;
-	background-color: #f2f2f2;
-  	border: 0px solid #000000;
-}
-
-.search-hotels legend {
-	font-size: 21px;
-	line-height: 26px;
-	font-weight: bold;
+	font-weight: 700;
+	color: #ffffff;
 	background-color: #766357;
+}
+
+.appointment a:hover {
+	background-color: #604e43;
+}
+
+.appointment a:focus {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #503e33;
+}
+
+/*form search hotels*/
+.search form {
+	margin: 0;
+	padding: 55px;
+	display: flex;
+	width: 568px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	left: 50%;
+	margin-left: -284px;
+	background-color: #ffffff; 
+}
+
+.search-list {
+	margin: 0;
+	margin-bottom: 54px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	width: 458px;
+	height: 173px;
+	justify-content: space-between;
+}
+
+.last-row {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	width: 460px;
+	height: 38px;
+}
+
+.search-form {
+	font: inherit;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.search-item input[type="text"] {
+	box-sizing: border-box;
+	width: 346px;
+	padding: 14px 200px 13px 13px;
+	border: none;
+	background-color: #f2f2f2;
+}
+
+.calendar {
+	background-image: url(../img/calendar.svg);
+	background-position: 315px center;
+	background-repeat: no-repeat; 
+}
+
+.search-item input[type="number"] {
+	box-sizing: border-box;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	border: none;
+	background-color: #f2f2f2;
+}
+
+
+
+
+.search-item input:hover {
+	background-color: #ebebeb; 
+}
+
+.search-item input:focus {
+	background-color: #ffffff;
+	border: 2px solid #e5e5e5;
+}
+
+.search-item button {
+	font: inherit;
+	color: #a9a9a9;
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.search-item button:hover {
 	color: #000000;
 }
 
-.popup-button button {
+.search-item button:active {
+	color: #81d3b2;
+}
+
+.button input {
+	display: block;
+	width: 458px;
+	padding-top: 19px;
+	padding-bottom: 20px;
 	font: inherit;
+	font-size: 19px;
+	line-height: 21px;
+	font-weight: 700;
+	vertical-align: middle;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #81b3d2;
+	border: none;
+}
 
-  	text-align: center;
-  	color: #ffffff;
-  	vertical-align: middle;
-  	text-transform: uppercase;
+.button input:hover {
+	background-color: #669ec0;
+}
 
-  	background-color: #81b3d2;
-  	border: none;
+.button input:focus {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #5496bd;
+}
+/* Footer */
+
+.main-footer {
+	display: flex;
+	padding: 36px 0;
+	margin: 0;
+
+}
+
+.footer-wrap {
+	width: 320px;
+	margin-right: 80px;
+}
+
+.footer-social {
+	width: 145px;
+}
+
+.footer-copiright {
+	width: 150px;
+	margin-left: auto; 
+}
+
+.hashtag {
+	margin: 0;
+	padding: 50px;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-decoration: uppercase;
+	color: #000000;
+}
+
+.social {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	width: 400px;
+	height: 48px;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.social li {
+	width: 46px;
+	height: 48px;
+	margin-right: 6px; 
+	background-color: #81b3d2; 
+}
+
+a.social-button-twitter::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 35%;
+	width: 17px;
+	height: 15px;
+	background-image: url(../img/twitter.svg);
+	background-repeat: no-repeat;
+}
+
+.social li:hover {
+	background-color: #669ec0;
+}
+
+.social li:active {
+	background-color: #5496bd;
+}
+
+a.social-button-twitter:active::after,
+a.social-button-facebook:active::after,
+a.social-button-youtube:active::after {
+	opacity: 0.3;
+}
+
+a.social-button-facebook::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 48%;
+	width: 12px;
+	height: 22px;
+	background-image: url(../img/fb-icon.svg);
+	background-repeat: no-repeat;
+}
+
+a.social-button-youtube::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 60%;
+	width: 20px;
+	height: 16px;
+	background-image: url(../img/youtube.svg);
+	background-repeat: no-repeat;
+}
+
+
+.footer-copyright {
+	position: relative;
+	vertical-align: middle;
+	padding-right: 120px;
+	text-align: center;
+}
+
+.button-website {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 46%;
+	width: 115px;
+	height: 41px;
+}
+
+.button-website:hover path {
+	fill: #81b3d2;
+}
+
+.button-website:active path {
+	fill: #bdbbbc;
 }

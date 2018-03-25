@@ -13,10 +13,10 @@
           <img src="img/logo-sedona.png" alt="Логотип Седоны">
         </a>
         <ul class="site-navigation">
-           <li><a href="info.html">Информация</a></li>
-           <li><a href="news.html">Фото и видео</a></li>
-           <li><a href="price.html">Карта штата</a></li>
-           <li><a href="catalog.html">Гостиницы</a></li>
+           <li class="nav-item"><a href="info.html">Информация</a></li>
+           <li class="nav-item"><a href="news.html">Фото и видео</a></li>
+           <li class="nav-item"><a href="price.html">Карта штата</a></li>
+           <li class="nav-item"><a href="catalog.html">Гостиницы</a></li>
          </ul>
       </nav>
     </header>
@@ -25,7 +25,7 @@
       <h1 class="visually-hidden">Поиск жилья в Седоне</h1>
       <section class="background-picture">
         <div class="background-picture">
-          <img class="background-picture picture" src="img/shape.png">
+          <img class="background-picture picture" src="img/shape.png" alt="Добро пожаловать в Седону">
         </div>
         <div class="background-title">
           <p class="background-subtitle">Седона - небольшой городок в Аризоне,<br> заслуживающий большего!
@@ -37,9 +37,9 @@
           <h2 class="visually-hidden">Преимущества</h2>
             <div class="feature-item-bg">
               <div class="feature-item">
-                <p class="feature-title">Настоящий городок</p>
+                <p class="feature-title">Настоящий<br> городок</p>
                 <span class="number">№1</span>
-                <p class="feature-subtitle">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+                <p class="feature-subtitle">Седона - не аттракцион для туристов,<br> там течет своя жизнь</p>
               </div>
             </div>
               <div class="feature-image">
@@ -52,17 +52,17 @@
           <ul class="advice-list">
               <li class="advice-item">
                 <h3 class="advice-title">Жилье</h3>
-                <p class="advice-subtitle">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                <p class="advice-subtitle">Рекомендуем пожить в настоящем<br> мотеле, все как в кино!</p>
                 <img class="advice-img-icon-1" src="img/icon-1.svg">
               </li>
               <li class="advice-item">
                 <h3 class="advice-title">Еда</h3>
-                <p class="advice-subtitle">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                <p class="advice-subtitle">Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
                 <img class="advice-img-icon-2" src="img/icon-2.svg">
               </li>
               <li class="advice-item">
                 <h3 class="advice-title">Сувениры</h3>
-                <p class="advice-subtitle">Не только китайского, но и местного производства!</p>
+                <p class="advice-subtitle">Не только китайского, но и местного<br> производства!</p>
                 <img class="advice-img-icon-3" src="img/icon-3.svg">
               </li>
             </ul>
@@ -85,7 +85,7 @@
            <div class="feature-item">
                 <p class="feature-title">Небольшая площадь</p>
                 <span class="number">№3</span>
-                <p class="feature-subtitle">Все достопримечательности находятся очень близко</p>
+                <p class="feature-subtitle">Все достопримечательности<br> находятся очень близко</p>
               </div>
          </section>
 
@@ -93,7 +93,7 @@
               <div class="feature-item">
                 <p class="feature-title">Красивая дорога</p>
                 <span class="number">№4</span>
-                <p class="feature-subtitle">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                <p class="feature-subtitle">Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
               </div>
          </section>
          
@@ -101,11 +101,11 @@
               <div class="feature-item">
                 <p class="feature-title">Мало туристов</p>
                 <span class="number">№5</span>
-                <p class="feature-subtitle">Большинство едет в Гранд-Каньон и толпится там</p>
+                <p class="feature-subtitle">Большинство едет в Гранд-Каньон и<br> толпится там</p>
               </div>
          </section>
 
-          <section class="advice">
+          <!--<section class="advice">
           <h2 class="visually-hidden">Советы</h2>
             <ul class="advice-list">
               <li class="advice-item">
@@ -121,47 +121,49 @@
                 <p class="advice-subtitle">Не только китайского, но и местного производства!</p>
               </li>
             </ul>
-          </section>
+          </section>-->
 
           <section class="appointment">
             <h2 class="appointment-item">Заинтересовались?</h2>
             <p class="appointment-info">Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+             <a href="#" class="button">Поиск гостиницы в Седоне</a>
           </section>
-         <!-- Здесь будет форма -->
-         <div class="index-columns"
-         <form class="popup-form-hotel-search" action="https://echo.htmlacademy.ru" method="post">
-          <fieldset class="serch">
-            <legend class="search-hotels">Поиск гостиницы в Седоне</legend>
-              <p class="arrival-date-item">
-                <label for="arrival-date">Дата заезда:</label>
-                <input id="arrival-date" type="date" name="date" value="" placeholder="24 апреля 2017">
-                <button type="button" class="kalendar">Календарь</button>
-              </p>
-              <p class="departure-date-item">
-                <label for="departure-date">Дата выезда:</label>
-                <input id="departure-date" type="text" name="date" value="" placeholder="4 июля 2017">
-                <button type="button" class="kalendar">Календарь</button>
-              </p>
-              </p>
-              <p class="adults-item">
+            <!-- Здесь будет форма -->
+           <section>
+          <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+          <h3 class="visually-hidden">Поиск по дате</h3>
+          <ul class="search-list">
+            <li class="search-item">
+              <label for="date-in">Дата заезда:</label>
+              <input class="calendar" type="text" id="date-in" name="date-in" placeholder="24 апреля 2017">
+            </li>
+            <li class="search-item">
+              <label for="date-out">Дата выезда:</label>
+              <input class="calendar" type="text" id="date-out" name="date-out" value="" placeholder="4 июля 2017">
+            </li>
+            <div class="last-row">
+              <li class="search-item">
                 <label for="adults">Взрослые:</label>
-                <input id="adults" type="number" name="adults" value="">
-                <button class="number-btn number-btn-minus">Минус</button>
-                <input class="number-field" type="text" id="adults">
-                <button class="number-btn number-btn-plus">Плюс</button> 
-              </p>
-              <p class="children-item">
-                <label for="children">Дети:</label>
-                <input id="children" type="number" name="children" value="">
-                <button class="number-btn number-btn-minus">Минус</button>
-                <input class="number-field" type="text" id="children">
-                <button class="number-btn number-btn-plus">Плюс</button> 
-              </p>
-              <button class="popup-button" type="submit">Найти</button>
-            </fieldset>
-        </form> 
-        </div>
-          <section class="map">
+                <input type="number" name="number" id="adults" value="2">
+                <button class="plus" type="button">+</button>
+                <button class="minus" type="button">-</button>
+              </li>
+              <li class="search-item">
+                <label for="child">Дети:</label>
+                <input type="number" name="number" id="child" value="0">
+                <button class="plus" type="button">+</button>
+                <button class="minus" type="button">-</button>
+              </li>
+            </div>
+          </ul>
+          <div class="button">
+            <input type="submit" value="Найти">
+          </div>
+        </form>  
+         
+</section>
+ 
+<section class="map">
           <h2 class="visually-hidden">Как до нас добраться</h2>
           <p>
             <img class="map" src="img/map.png" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
@@ -171,29 +173,27 @@
       </main>
 
       <footer class="main-footer">
-      <p class="footer-contacts">Поиск жилья в Седоне
-        <a href="#">#visitsedona</a>
-      </p>
-      <div class="footer-social">
-        <ul>
-          <li><a class="social-button" href="#">Твиттер
-                <img class="social-button-twitter" src="img/twitter.svg">
-              </a>
-          </li>
-          <li><a class="social-button" href="#">Фейсбук
-                <img class="social-button-fb" src="img/fb-icon.svg">
-              </a>
-          </li>
-          <li><a class="social-button" href="#">Ютюб
-                <img class="social-button-youtube" src="img/youtube.svg">
-              </a>
-          </li>
-        </ul>
+      <div class="footer-wrap">
+        <a class="hashtag" href="http://instagram.com/">#visitsedona</a>
       </div>
-      <p class="footer-copyright">
+      <div class="footer-social">
+        <div class="social">
+          <a class="social-icon tw" href="https://twitter.com/">Твиттер
+          </a>
+          <img class="social-button twitter" src="img/twitter.svg">
+          <a class="social-icon fb" href="https://www.facebook.com/">Фейсбук
+          </a>
+          <img class="social-button fb" src="img/fb-icon.svg">
+          <a class="social-icon youtube" href="http://www.youtube.com/">Ютюб
+          </a>
+          <img class="social-button youtube" src="img/youtube.svg">
+        </div>
+      </div>
+      <div class="footer-copiright">
+      <p class="copyright">
         <b>website by</b> 
         <a class="button" href="https://htmlacademy.ru">
-          <img class="logo-htmlacademy" src="img/logo-htmlacademy.svg">
+          <img class="logo-htmlacademy" src="img/logo-htmlacademy.svg" width="115" height="41">
         </a>
       </p>
     </footer>  

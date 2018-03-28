@@ -30,9 +30,8 @@
         <h2 class="visually-hidden">Фильтр жилья</h2>
         <!-- Здесь будет форма -->
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-
           <fieldset class="infrastructure">
-             <legend class="filter">Инфраструктура:</legend>
+            <legend class="filter">Инфраструктура:</legend>
               <ul>
                <li class="filter-option">
                 <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="pool" id="filter-pool" checked>
@@ -47,7 +46,6 @@
                 <label for="filter-wi-fi">Wi-Fi</label>
                </li>
               </ul>
-            
           </fieldset>
           <fieldset class="type-house">
              <legend class="filter">Тип жилья:</legend>
@@ -66,30 +64,29 @@
                </li>
               </ul>
             </fieldset>
-
-            <div class="filter-range">
-      <div class="filter-range-title">Стоимость в сутки (р):</div>
-      <div class="price-controls">
-        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
-      </div>
-      <div class="range-controls">
-        <div class="scale">
-          <div class="bar"></div>
-        </div>
-        <div class="range-toggle range-toggle-min"></div>
+          <div class="filter-range">
+            <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+              </div>
+            <div class="range-controls">
+              <div class="scale">
+                 <div class="bar">
+                 </div>
+              </div>
+            <div class="range-toggle range-toggle-min"></div>
         <div class="range-toggle range-toggle-max"></div>
       </div>
       <button class="btn-transparent" type="submit">Показать</button>
-    </div>
-          
-        </form>
-      </section>
-      
-      <section class="search-result">
-        <p class="search-result-caption">Найдено: 3</p>
-        <div class="search-result-navigation">
-          <h4>Сортировка:</h4>
+      </div>
+    </form>
+  </section>
+
+  <section class="search-result">
+    <p class="search-result-caption">Найдено: 3</p>
+      <div class="search-result-navigation">
+        <h4>Сортировка:</h4>
           <ul class="search-result-list">
             <li class="search-result-item">
               <a href="#" class="search-result-link active">По цене</a> 
@@ -190,77 +187,7 @@
       </article>
       </div>
 
-<!--<section class="catalog.html">
-       	 <article class="catalog-category">
-       	 	<p class="catalog-item-image">
-              <a href="catalog-item.html">
-              <div class="img">
-                <img src="img/amara-resort.png" width="150" height="100" alt="Amara resort & spa<">
-              </div>
-              </a>
-            </p>
-			      <h3>
-              <a href="catalog-item.html">
-                <span class="catalog-category">Amara resort & spa</span>
-              </a>
-            </h3>
-                <span class="catalog-item-title">Гостиница</span>
-                <span class="catalog-item-subtitle">От</span>
-            <p class="catalog-item-price">
-              <b>4000 р.</b>
-              <a class="button-more" href="#">Подробнее</a>
-              <a class="button-book" href="#">Забронировать</a>
-            </p>
-            <img class="stars" src="img/star.svg">
-       	 	<span class="rating">Рейтинг: 8,5</span>
-          </article>
-          <article class="catalog-category">
-       	 	<p class="catalog-item-image">
-              <a href="catalog-item.html">
-              <div class="img">
-                <img src="img/desert-quail.jpg" width="150" height="100" alt="Amara resort & spa<">
-              </div>
-              </a>
-            </p>
-			      <h3>
-              <a href="catalog-item.html">
-                <span class="catalog-category">Desert Quail inn</span>
-              </a>
-            </h3>
-                <span class="catalog-item-title">Мотель</span>
-                <span class="catalog-item-subtitle">От</span>
-            <p class="catalog-item-price">
-              <b>3000 р.</b>
-              <a class="button-more" href="#">Подробнее</a>
-              <a class="button-book" href="#">Забронировать</a>
-            </p>
-            <img class="stars" src="img/star.svg">
-       	 	<span class="rating">Рейтинг: 8,9</span>
-          </article>
-          <article class="catalog-category">
-       	 	<p class="catalog-item-image">
-              <a href="catalog-item.html">
-              <div class="img">
-                <img src="img/villas-at-poco.jpg" width="150" height="100" alt="Amara resort & spa<">
-              </div>
-              </a>
-            </p>
-			      <h3>
-              <a href="catalog-item.html">
-                <span class="catalog-category">Villas at poco diablo</span>
-              </a>
-            </h3>
-                <span class="catalog-item-title">Апартаменты</span>
-                <span class="catalog-item-subtitle">От</span>
-            <p class="catalog-item-price">
-              <b>2000 р.</b>
-              <a class="button-more" href="#">Подробнее</a>
-              <a class="button-book" href="#">Забронировать</a>
-            </p>
-            <img class="stars" src="img/star.svg">
-       	 	<span class="rating">Рейтинг: 9,2</span>
-          </article>
-       </section>-->
+
     </main>
 
     <footer class="footer main">

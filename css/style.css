@@ -82,6 +82,7 @@ input[type="radio"].visually-hidden {
 
 .main-header-logo {
 	position: absolute;
+	z-index: 1;
 	top: 0px;
 	left: 50%;
 	transform: translateX(-50%);
@@ -109,7 +110,7 @@ input[type="radio"].visually-hidden {
 /*background picture*/
 
 .background-picture {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	text-align: center;
 }
 
@@ -185,10 +186,6 @@ input[type="radio"].visually-hidden {
 	font-weight: normal;
 }
 
-.number {
-	margin-top: 22px;
-	margin-bottom: 22px;
-}
 
 .advice-title {
 	font-size: 21px;
@@ -265,18 +262,20 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-title {
-	
 	margin-left: auto;
-	width: 240px;
 	text-align: center;
 	
 }
 
 p.feature-title {
 	margin-right: 0;
-	margin: 0;
 	padding: 0;
 	text-align: center;
+}
+
+.conteiner-attraction {
+	display: flex;
+	justify-content: space-between;
 }
 
 .attraction {
@@ -299,7 +298,6 @@ p.feature-title {
 	padding-bottom: 60px;
 	width: 100%;
 	align-items: center;
-	margin-bottom: 52px;
 }
 
 .attraction-title {
@@ -319,6 +317,7 @@ p.feature-title {
 	line-height: 21px;
 	font-weight: normal;
 	margin-bottom: 0;
+	margin-top: 30px;
 }
 
 .attraction-number {
@@ -330,24 +329,32 @@ p.feature-title {
 .attraction-title {
 	width: 400px;
 	margin-top: 0;
-	margin-bottom: auto;
+	margin-bottom: 30px;
 }
 
 .appointment {
+	width: 568px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
+	background-color: #ffffff;	
 }
 
-.appointment-item {
+.appointment-title {
 	font-size: 30px;
 	line-height: 36px;
 	font-weight: 700;
+	padding-top: 25px;
+	margin-bottom: 30px;
 }
 
-.appointment-info {
+.appointment-text {
 	font-size: 14px;
-	line-height: 21px;
+	line-height: 26px;
+	font-weight: 700;
 	font-weight: normal;
-}
+	margin-bottom: 50px;
+}	
 
 p.appointment-info {
 	margin-bottom: 35px;
@@ -418,11 +425,11 @@ p.appointment-info {
 }
 
 form.filter {
+	width: 330px;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	display: flex;
-	width: 1200px;
 	align-items: center;
 	justify-content: flex-start;
 	padding: 28px 72px 20px 72px;
@@ -470,6 +477,8 @@ li.filter-option {
 .filter-option label {
 	position: relative;
 	display: block;
+	font-weight: normal;
+	text-align: left;
 }
 
 .filter-input-checkbox + label::before {
@@ -854,8 +863,132 @@ li.filter-option {
 }
 
 
-
 /* Footer */
+.footer {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0;
+	padding: 36px 0px;
+}
+
+.footer.main {
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.contacts,
+.social,
+.footer-copyright {
+	margin: 0;
+	padding: 0;
+	
+	text-align: center;
+}
+
+.contacts a {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.social {
+	list-style: none;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	width: 400px;
+	height: 48px;
+}
+
+.social li {
+	width: 46px;
+	height: 48px;
+	margin-right: 6px;
+}
+
+.social-button {
+	display: block;
+	width: 46px;
+	height: 48px; 
+	background-color: #81b3d2; 
+}
+
+.social-button::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-repeat: no-repeat;
+}
+
+.social-button-twitter::after {
+	left: 35%;
+	width: 17px;
+	height: 15px;
+	background-image: url(../img/twitter.svg);
+}
+.social-button-facebook::after {
+	left: 48%;
+	width: 12px;
+	height: 22px;
+	background-image: url(../img/fb-icon.svg);
+}
+
+.social-button-youtube::after {
+	left: 60%;
+	width: 20px;
+	height: 16px;
+	background-image: url(../img/youtube.svg);
+}
+
+.social-button:hover {
+	background-color: #669ec0;
+}
+
+.social-button:active {
+	background-color: #5496bd;
+} 
+
+.social-button:active::after {
+	opacity: 0.3;
+}
+
+.footer-copyright {
+	position: relative;
+	vertical-align: middle;
+	padding-right: 120px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.button-website {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 46%;
+	width: 115px;
+	height: 41px;
+}
+
+.button-website:hover path {
+	fill: #81b3d2;
+}
+
+.button-website:active path {
+	fill: #bdbbbc;
+}
+
+
+
 
 .filter fieldset {
 	border: none;
@@ -892,7 +1025,8 @@ form.filter {
 	margin: 0;
 	padding: 0;
 	display: flex;
-	width: 1200px;
+	width: 400px;
+	margin-right: 0;
 	align-items: center;
 	justify-content: flex-start;
 	padding: 28px 72px 20px 72px;
@@ -1129,14 +1263,16 @@ li.filter-option {
 }
 
 .search-form {
-	position: relative;
+	position: absolute;
+	background-color: #ffffff;
+	border: 55px solid #ffffff;
+	margin-left: 316px;
 }
 
 .search-result {
 	margin: 0;
 	padding: 31px 72px;
 	display: flex;
-	width: 100%;
 	border-bottom: 1px solid #f2f2f2;
 }
 
@@ -1224,141 +1360,145 @@ li.filter-option {
 
 /* сложная форма поиска */
 
-.filter-range {
-  width: 330px;
-  margin: 50px auto; /* для демо */
 
-  color: #ffffff;
-  text-transform: uppercase;
+.filter-range {
+  	width: 330px;
+  	margin: 50px;
+  	/*margin: 30px; /* для демо */
+  	/*padding-left: 350px; */
+
+  	color: #ffffff;
+  	text-transform: uppercase;
+
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
+  	margin-bottom: 9px;
 
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 21px;
+  	font-weight: 600;
+  	font-size: 16px;
+  	line-height: 21px;
 }
 
 .price-controls {
-  position: relative;
+  	position: relative;
 
-  height: 36px;
-  margin-bottom: 20px;
+  	height: 36px;
+  	margin-bottom: 20px;
 
-  font-size: 0;
+  	font-size: 0;
 
-  border: 2px solid #ffffff;
-  border-radius: 2px;
+  	border: 2px solid #ffffff;
+  	border-radius: 2px;
 }
 
 .price-controls::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  	content: "";
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
 
-  width: 2px;
-  height: 22px;
+  	width: 2px;
+  	height: 22px;
 
-  background: #ffffff;
-  transform: translate(-50%, -50%);
+  	background: #ffffff;
+  	transform: translate(-50%, -50%);
 }
 
 .price-controls label {
-  display: inline-block;
+  	display: inline-block;
 
-  font-size: 14px;
-  line-height: 38px;
-  vertical-align: top;
+  	font-size: 14px;
+  	line-height: 38px;
+  	vertical-align: top;
 
-  cursor: pointer;
+  	cursor: pointer;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {
-  width: 90px;
-  padding-left: 65px;
+  	width: 90px;
+  	padding-left: 65px;
 }
 
 .price-controls input {
-  width: 50px;
-  margin: 0;
+  	width: 50px;
+  	margin: 0;
 
-  color: inherit;
-  font: inherit;
+  	color: inherit;
+  	font: inherit;
 
-  background: none;
-  border: none;
+  	background: none;
+  	border: none;
 }
 
 .range-controls {
-  position: relative;
+  	position: relative;
 
-  margin-bottom: 32px;
+  	margin-bottom: 32px;
 }
 
 .range-controls .scale {
-  height: 2px;
+  	height: 2px;
 
-  background: rgba(255, 255, 255, 0.3);
+  	background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
-  width: 80%;
-  height: 2px;
+  	width: 80%;
+  	height: 2px;
 
-  background: #ffffff;
+  	background: #ffffff;
 }
 
 .range-toggle {
-  position: absolute;
-  top: -9px;
-  width: 4px;
-  height: 4px;
+  	position: absolute;
+  	top: -9px;
+  	width: 4px;
+  	height: 4px;
 
-  background: #ababab;
-  border: 8px solid #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-  cursor: pointer;
+  	background: #ababab;
+  	border: 8px solid #ffffff;
+  	border-radius: 50%;
+  	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  	cursor: pointer;
 }
 
 .range-toggle:hover {
-  background: #1c4f80;
+  	background: #1c4f80;
 }
 
 .range-toggle-min {
-  left: 0;
+  	left: 0;
 }
 
 .btn-transparent {
-  display: block;
-  margin: 0 auto;
-  padding: 6px 35px;
+  	display: block;
+  	margin: 0 auto;
+  	padding: 6px 35px;
 
-  font-size: 14px;
-  line-height: 20px;
-  color: #ffffff;
-  text-transform: uppercase;
+  	font-size: 14px;
+  	line-height: 20px;
+  	color: #ffffff;
+  	text-transform: uppercase;
 
-  background: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 2px;
-  cursor: pointer;
+  	background: transparent;
+  	border: 2px solid #ffffff;
+  	border-radius: 2px;
+  	cursor: pointer;
 }
 
 .btn-transparent:hover {
-  color: #000000;
+  	color: #000000;
 
-  background: #ffffff;
+  	background: #ffffff;
 }
 
 .range-toggle-max {
-  left: 80%;
+  	left: 80%;
 }
 
-/* katalog oteley */
+/* catalog hotels */
 
 .img {
 	width: 135px;
@@ -1436,7 +1576,7 @@ li.filter-option {
 
 a.button-info {
 	display: inline-block;
-	width: 110px;
+	width: 100px;
 	padding: 3px 16px;
 	margin-right: 2px;
 }
@@ -1452,12 +1592,16 @@ span.hotel-tipe {
 	width: 110px;
 	height: 27px;
 	margin-right: 2px;
+	font-weight: normal;
 }
 
 span.price {
 	display: inline-block;
 	width: 142px;
 	height: 27px;
+	padding-left: 25px;
+	font-weight: normal;
+	
 }
 
 div.information-item {
@@ -1482,7 +1626,6 @@ h3.hotel-title {
 	padding: 0;
 	display: flex;
 	align-items: center;
-	width: 100%;
 	padding: 28px 72px;
 	border-bottom: 1px solid #f2f2f2;
 }
@@ -1501,7 +1644,8 @@ span.rating-number {
 	width: 110px;
 	height: 30px;
 	text-align: center;
-	padding-top: 5px;
+	padding: 5px;
+	font-weight: normal;
 }
 
 .star-content-list {
@@ -1555,8 +1699,27 @@ div.description {
 	width: 320px;
 	padding-left: 30px;
 	padding-right: 290px;
+	text-align: left;
 }
 
-.raiting {
-	padding-left: 130px;
+.rating {
+	padding-left: 200px;
+}
+
+.number::before,
+.number::after {
+  	content: "";
+  	position: absolute;
+  	width: 9px;
+  	height: 1px;
+  	top: 10px;
+  	left: 50%;
+  	margin-left: 16px;
+  	vertical-align: middle;
+  	background: #ffffff;
+	
+}
+
+.number::before {
+  margin-left: -24px;
 }

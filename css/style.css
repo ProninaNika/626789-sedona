@@ -1528,12 +1528,35 @@ li.filter-option {
 
 .hotel-tipe,
 .price {
+	display: inline-block;
+	width: 110px;
+	vertical-align: middle;
+	
+
 	font-size: 14px;
 	line-height: 21px;
 	color: #333333;	
 }
 
+.price {
+	display: inline-block;
+	margin-left: 10px;
+	width: 142px;
+	vertical-align: middle;
+	
+}
+
+.buttons-item {
+	width: 350px;
+}
+
 .button-info {
+	display: inline-block;
+	height: 27px;
+	line-height: 27px;
+	min-width: 110px;
+	
+
 	font: inherit;
 	text-align: center;
 	vertical-align: middle;
@@ -1543,6 +1566,14 @@ li.filter-option {
 }
 
 .button-book {
+	display: inline-block;
+	height: 27px;
+	line-height: 27px;
+	min-width: 110px;
+
+	margin-left: 4px;
+	min-width: 142px;
+
 	font: inherit;
 	text-align: center;
 	vertical-align: middle;
@@ -1570,6 +1601,17 @@ li.filter-option {
 }
 
 .rating-number {
+	position: relative;
+	display: block;
+	margin: 0;
+	margin-top: 63px;
+	width: 110px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	vertical-align: middle;
+	
+
 	color: #666666;
 	background-color: #f2f2f2;
 }
@@ -1657,7 +1699,7 @@ span.rating-number {
 	align-items: center;
 	width: 90px;
 	height: 27px;
-	margin-bottom: 40px;
+	margin-left: 30px;
 }
 
 .star-content-list.thristar {
@@ -1669,7 +1711,7 @@ span.rating-number {
 	align-items: center;
 	width: 65px;
 	height: 27px;
-	margin-bottom: 40px;
+	margin-left: 50px;
 }
 
 .star-content-list.twostar {
@@ -1681,7 +1723,7 @@ span.rating-number {
 	height: 27px;
 	margin: 0;
 	padding: 0;
-	margin-bottom: 40px;
+	margin-left: 70px;
 }
 
 li.star-content-item {

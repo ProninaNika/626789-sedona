@@ -1705,21 +1705,3 @@ div.description {
 .rating {
 	padding-left: 200px;
 }
-
-.number::before,
-.number::after {
-  	content: "";
-  	position: absolute;
-  	width: 9px;
-  	height: 1px;
-  	top: 10px;
-  	left: 50%;
-  	margin-left: 16px;
-  	vertical-align: middle;
-  	background: #ffffff;
-	
-}
-
-.number::before {
-  margin-left: -24px;
-}

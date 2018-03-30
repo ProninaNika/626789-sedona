@@ -12,6 +12,7 @@ body {
 	background-color: #ffffff;
 	background-position: top center;
 	background-repeat: no-repeat;
+	background-color: #f2f2f2;
 }
 
 a {
@@ -110,7 +111,7 @@ input[type="radio"].visually-hidden {
 /*background picture*/
 
 .background-picture {
-	margin-bottom: 30px;
+	margin-bottom: 26px;
 	text-align: center;
 }
 
@@ -118,6 +119,7 @@ input[type="radio"].visually-hidden {
 
 .background-subtitle {
 	background-color: #ffffff;
+
 }
 
 .background-title {
@@ -132,13 +134,13 @@ input[type="radio"].visually-hidden {
 .background-title p {
 	font-size: 21px;
 	line-height: 26px;
+	padding-bottom: 7px;
 }
 
 .background-title b {
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: normal;
-
 }
 
 .feature-item {
@@ -195,11 +197,13 @@ input[type="radio"].visually-hidden {
 }
 
 .advice-item {
+	width: 300px;
+
 	text-align: center;
 	background-image: url(img/icon-1.svg);
 	
 	margin-top: 60px;
-	margin-bottom: 80px;
+	margin-bottom: 58px;
 	padding: 0px;
 }
 
@@ -211,18 +215,18 @@ input[type="radio"].visually-hidden {
 }
 
 .advice-item:nth-child(1) {
-	padding-left: 72px;
+	padding-left: 50px;
 	padding-right: 72px;
 }
 
 .advice-item:nth-child(2) {
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 28px;
+	padding-right: 40px;
 }
 
 .advice-item:nth-child(3) {
-	padding-left: 65px;
-	padding-right: 65px;
+	padding-left: 60px;
+	padding-right: 50px;
 }
 
 .advice-subtitle {
@@ -271,6 +275,7 @@ p.feature-title {
 	margin-right: 0;
 	padding: 0;
 	text-align: center;
+	margin-top: 6px;
 }
 
 .conteiner-attraction {
@@ -308,7 +313,6 @@ p.feature-title {
 	margin-top: 0;
 	margin-left: auto;
 	margin-right: auto;
-	width: 123px;
 	text-align: center;
 }
 
@@ -317,19 +321,22 @@ p.feature-title {
 	line-height: 21px;
 	font-weight: normal;
 	margin-bottom: 0;
-	margin-top: 30px;
+	margin-left: 17px;
 }
 
 .attraction-number {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: normal;
+	margin-left: 22px;
 }
 
 .attraction-title {
-	width: 400px;
+	width: 150px;
 	margin-top: 0;
-	margin-bottom: 30px;
+	padding-left: 21px;
+	margin-bottom: 17px;
+	padding-bottom: 0;
 }
 
 .appointment {
@@ -345,7 +352,7 @@ p.feature-title {
 	line-height: 36px;
 	font-weight: 700;
 	padding-top: 25px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .appointment-text {
@@ -353,7 +360,7 @@ p.feature-title {
 	line-height: 26px;
 	font-weight: 700;
 	font-weight: normal;
-	margin-bottom: 50px;
+	margin-bottom: 41px;
 }	
 
 p.appointment-info {
@@ -428,11 +435,11 @@ form.filter {
 	width: 330px;
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	padding: 28px 72px 20px 72px;
+	padding-top: 30px;
+	padding-left: 70px;
 }
 
 fieldset.first-column,
@@ -871,6 +878,7 @@ li.filter-option {
 	justify-content: space-around;
 	margin: 0;
 	padding: 36px 0px;
+	padding-top: 43px;
 }
 
 .footer.main {
@@ -894,6 +902,7 @@ li.filter-option {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #000000;
+	margin-left: 63px;
 }
 
 .social {
@@ -1000,6 +1009,9 @@ li.filter-option {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-size: cover;
+	
+	display: flex;
+	justify-content: space-between;
 }
 
 .filter legend {
@@ -1018,18 +1030,6 @@ li.filter-option {
 	margin: 0;
 	padding: 0;
 	color: #ffffff;
-}
-
-form.filter {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	width: 400px;
-	margin-right: 0;
-	align-items: center;
-	justify-content: flex-start;
-	padding: 28px 72px 20px 72px;
 }
 
 fieldset.first-column,
@@ -1266,12 +1266,12 @@ li.filter-option {
 	position: absolute;
 	background-color: #ffffff;
 	border: 55px solid #ffffff;
-	margin-left: 316px;
 }
 
 .search-result {
 	margin: 0;
-	padding: 31px 72px;
+	padding-left: 72px;
+	margin-top: 0;
 	display: flex;
 	border-bottom: 1px solid #f2f2f2;
 }
@@ -1364,8 +1364,9 @@ li.filter-option {
 .filter-range {
   	width: 330px;
   	margin: 50px;
-  	/*margin: 30px; /* для демо */
-  	/*padding-left: 350px; */
+  	margin-top: 25px;
+  	margin-right: 60px;
+  	margin-bottom: 30px;
 
   	color: #ffffff;
   	text-transform: uppercase;
@@ -1378,6 +1379,7 @@ li.filter-option {
   	font-weight: 600;
   	font-size: 16px;
   	line-height: 21px;
+  	text-align: left; 
 }
 
 .price-controls {
@@ -1746,4 +1748,35 @@ div.description {
 
 .rating {
 	padding-left: 200px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.attraction-item:nth-child(1) {
+	width: 278px;
+	padding-left: 50px;
+	padding-right: 72px;
+}
+
+.attraction-item:nth-child(2) {
+	padding-left: 28px;
+	padding-right: 40px;
+}
+
+.attraction-item:nth-child(3) {
+	padding-left: 60px;
+	padding-right: 50px;
+}
+
+.infrastructure {
+	padding-left: 0;}
+
+.type-house {
+
+	padding-left: 104px;
 }

@@ -1622,14 +1622,14 @@ li.filter-option {
 a.button-info {
 	display: inline-block;
 	width: 100px;
-	padding: 3px 16px;
+	
 	margin-right: 2px;
 }
 
 a.button-book {
 	display: inline-block;
 	width: 142px;
-	padding: 3px 14px;
+	
 }
 
 span.hotel-tipe {
@@ -1654,8 +1654,7 @@ div.information-item {
 }
 
 h3.hotel-title {
-	margin-bottom: 6px;
-	margin-top: -8px;
+	margin-bottom: 0px;
 }
 
 .catalog {
@@ -1671,7 +1670,8 @@ h3.hotel-title {
 	padding: 0;
 	display: flex;
 	align-items: center;
-	padding: 28px 72px;
+	padding-left: 72px;
+	padding-top: 24px;
 	border-bottom: 1px solid #f2f2f2;
 }
 

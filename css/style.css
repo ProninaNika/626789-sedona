@@ -893,7 +893,7 @@ li.filter-option {
 
 .footer.main {
 	position: absolute;
-	bottom: 0px;
+	bottom: 4px;
 	padding: 36px 0px;
 	padding-bottom: 38px;
 	background-color: rgba(255,255,255,0.9);
@@ -947,6 +947,7 @@ li.filter-option {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	
 	background-repeat: no-repeat;
 }
 
@@ -986,6 +987,9 @@ li.filter-option {
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	
 	font-weight: normal;
 
@@ -994,7 +998,6 @@ li.filter-option {
 .button-website {
 	
 	top: 50%;
-	transform: translateY(-50%);
 	left: 46%;
 	width: 115px;
 	height: 41px;
@@ -1290,6 +1293,7 @@ li.filter-option {
 .search-result {
 	margin: 0;
 	padding-left: 72px;
+	padding-right: 72px;
 	margin-top: 0;
 	display: flex;
 	border-bottom: 1px solid #f2f2f2;
@@ -1690,29 +1694,22 @@ h3.hotel-title {
 	padding: 0;
 	display: flex;
 	align-items: center;
-	padding-left: 72px;
-	padding-top: 15px;
+	padding: 20px 72px 20px 72px;
 	border-bottom: 1px solid #f2f2f2;
 }
 
-.hotel-item:nth-child(2) {
-	margin-top: 24px;
-	padding-bottom: 45px;
-}
 
-.hotel-item:nth-child(3) {
-	padding-bottom: 27px;
-	padding-top: 3px;
-}
-
-.raiting {
+.rating {
 	list-style: none;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	justify-content: space-between;
+	align-items: flex-end;
 	width: 240px;
 	margin: 0;
 	padding: 0;	
+	margin-left: auto;
+	
 }
 
 span.rating-number {
@@ -1784,9 +1781,7 @@ div.description {
 	margin-top: -8px;
 }
 
-.rating {
-	padding-left: 200px;
-}
+
 
 span.rating-number:nth-child(2) {
 	margin-top: 10px;

@@ -421,12 +421,12 @@ p.appointment-info {
 }
 
 .filter legend {
-	margin: 0;
-	margin-bottom: 22px;
+	margin-bottom: 18px;
 	font-size: 16px;
 	line-height: 21px;
 	font-weight: 700;
 	color: #ffffff;
+	padding-right: 42px;
 }
 
 .filter ul {
@@ -444,7 +444,7 @@ form.filter {
 	margin: 0;
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: space-between;
 	transform: translateY(0px);
 	
 }
@@ -1012,12 +1012,6 @@ li.filter-option {
 }
 
 
-
-
-.filter fieldset {
-	border: none;
-}
-
 .filters {
 	background-color: #81b3d2;
 	background-image: url(../img/filter-background.jpg);
@@ -1034,14 +1028,6 @@ li.filter-option {
 	padding-right: 6%;
 }
 
-.filter legend {
-	margin: 0;
-	margin-bottom: 22px;
-	font-size: 16px;
-	line-height: 21px;
-	font-weight: 700;
-	color: #ffffff;
-}
 
 .filter ul {
 	list-style: none;
@@ -1398,8 +1384,8 @@ li.filter-option {
 }
 
 .filter-range-title {
-  	margin-bottom: 9px;
-
+  	margin-bottom: 6px;
+	margin-left: 2px;
   	font-weight: 600;
   	font-size: 16px;
   	line-height: 21px;
@@ -1511,6 +1497,7 @@ li.filter-option {
   	cursor: pointer;
   	padding-right: 20px;
   	padding-top: 4px;
+  	margin-left: 85px;
 }
 
 .btn-transparent:hover {
@@ -1796,9 +1783,10 @@ div.description {
 }
 
 .infrastructure {
-	padding-left: 0;}
+	padding-left: 0;
+	padding-right: 0;
+}
 
 .type-house {
-
-	padding-left: 104px;
+    margin-left: 61px;	
 }

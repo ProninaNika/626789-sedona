@@ -880,6 +880,8 @@ li.filter-option {
 
 
 /* Footer */
+
+
 .footer {
 	display: flex;
 	width: 100%;
@@ -887,12 +889,13 @@ li.filter-option {
 	justify-content: space-around;
 	margin: 0;
 	padding: 36px 0px;
-	padding-top: 43px;
 }
 
 .footer.main {
 	position: absolute;
 	bottom: 0px;
+	padding: 36px 0px;
+	padding-bottom: 38px;
 	background-color: rgba(255,255,255,0.9);
 }
 
@@ -901,7 +904,7 @@ li.filter-option {
 .footer-copyright {
 	margin: 0;
 	padding: 0;
-	margin-top: -11px;
+	width: 400px;
 	text-align: center;
 }
 
@@ -911,7 +914,6 @@ li.filter-option {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #000000;
-	margin-left: 63px;
 }
 
 .social {
@@ -983,13 +985,14 @@ li.filter-option {
 .footer-copyright {
 	position: relative;
 	vertical-align: middle;
-	padding-right: 120px;
 	text-align: center;
+	
 	font-weight: normal;
+
 }
 
 .button-website {
-	position: absolute;
+	
 	top: 50%;
 	transform: translateY(-50%);
 	left: 46%;

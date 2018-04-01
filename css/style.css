@@ -439,6 +439,22 @@ p.appointment-info {
 }
 
 form.filter {
+	background-color: #81b3d2;
+	background-image: url(../img/filter-background.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	display: flex;
+	justify-content: space-between;
+	height: 182px;
+	padding-top: 28px;
+	padding-bottom: 8px;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.container-filter {
 	width: 330px;
 	box-sizing: border-box;
 	margin: 0;
@@ -446,7 +462,7 @@ form.filter {
 	align-items: center;
 	justify-content: space-between;
 	transform: translateY(0px);
-	
+	margin-top: 10px;
 }
 
 fieldset.first-column,
@@ -1013,19 +1029,7 @@ li.filter-option {
 
 
 .filters {
-	background-color: #81b3d2;
-	background-image: url(../img/filter-background.jpg);
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	background-size: cover;
 	
-	display: flex;
-	justify-content: space-between;
-	height: 182px;
-	padding-top: 28px;
-	padding-bottom: 8px;
-	padding-left: 6%;
-	padding-right: 6%;
 }
 
 

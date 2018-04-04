@@ -51,15 +51,14 @@ input[type="radio"].visually-hidden {
 .main-navigation {
 	font-size: 14px;
 	line-height: 26px;
+	
 	color: #000000;
-
 	background-color: #ffffff;
 }
 
 .site-navigation, 
 .advice-item {
 	list-style: none;
-	
 }
 
 .site-navigation {
@@ -123,7 +122,6 @@ input[type="radio"].visually-hidden {
 
 .background-subtitle {
 	background-color: #ffffff;
-
 }
 
 .background-title {
@@ -170,20 +168,11 @@ input[type="radio"].visually-hidden {
 	display: flex;
 }
 
-.feature-item {
-	width: 400px;
-	padding-top: 46px;
-	padding-left: 60px;
-	padding-right: 60px;
-	box-sizing: border-box;
-}
-
 .advice-title {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700px;
 	margin-bottom: 28px;
-
 }
 
 .feature-subtitle {
@@ -194,7 +183,6 @@ input[type="radio"].visually-hidden {
 	margin-top: 17px;
 }
 
-
 .advice-title {
 	font-size: 21px;
 	line-height: 26px;
@@ -204,10 +192,8 @@ input[type="radio"].visually-hidden {
 
 .advice-item {
 	width: 300px;
-
 	text-align: center;
 	background-image: url(img/icon-1.svg);
-	
 	margin-top: 60px;
 	margin-bottom: 58px;
 	padding: 0px;
@@ -264,7 +250,6 @@ input[type="radio"].visually-hidden {
 .features {
 	margin: 0;
 	padding: 0;
-	
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -278,10 +263,13 @@ input[type="radio"].visually-hidden {
 }
 
 p.feature-title {
-	margin-right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	
 	padding: 0;
 	text-align: center;
 	margin-top: 6px;
+	width: 155px;
 }
 
 .conteiner-attraction {
@@ -828,22 +816,24 @@ li.filter-option {
 .last-row-item input::-moz-placeholder,
 .last-row-item input:-moz-placeholder,
 .last-row-item input:-ms-input-placeholder {
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 26px;
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
+	letter-spacing: 0.1px;
 }
 
 .search-item input::-webkit-input-placeholder,
 .last-row-item input::-webkit-input-placeholder,
 .search-item input,
 .last-row-item input {
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 26px;
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
+	letter-spacing: 0.1px;
 }
 
 .search-item button {
@@ -905,6 +895,7 @@ li.filter-option {
 	justify-content: space-around;
 	margin: 0;
 	padding: 36px 0px;
+	margin-top: 6px;
 }
 
 .footer.main {
@@ -1012,7 +1003,7 @@ li.filter-option {
 }
 
 .button-website {
-	
+	margin-left: 8px;
 	top: 50%;
 	left: 46%;
 	width: 115px;
@@ -1026,12 +1017,6 @@ li.filter-option {
 .button-website:active path {
 	fill: #bdbbbc;
 }
-
-
-.filters {
-	
-}
-
 
 .filter ul {
 	list-style: none;
@@ -1232,6 +1217,10 @@ li.filter-option {
 	line-height: 26px;
 	font-weight: bold;
 	color: #000000;
+	margin: 0;
+	padding: 0;
+	width: 135px;
+	margin-top: 4px;
 }
 
 .search-result h4 {
@@ -1293,12 +1282,6 @@ li.filter-option {
 }
 
 
-.search-result-caption {
-	margin: 0;
-	padding: 0;
-	width: 135px;
-}
-
 .search-result-navigation {
 	margin: 0;
 	padding: 0;
@@ -1334,7 +1317,8 @@ li.filter-option {
 }
 
 .search-result-navigation h4 {
-	margin-right: 38px;
+	margin-right: 40px;
+	margin-left: 4px;
 }
 
 .search-result-arrow {
@@ -1450,21 +1434,18 @@ li.filter-option {
 
 .range-controls {
   	position: relative;
-
-  	margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 .range-controls .scale {
   	height: 2px;
-
-  	background: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
   	width: 80%;
   	height: 2px;
-
-  	background: #ffffff;
+	background: #ffffff;
 }
 
 .range-toggle {
@@ -1472,14 +1453,12 @@ li.filter-option {
   	top: -9px;
   	width: 4px;
   	height: 4px;
-
-  	background: #ababab;
+	background: #ababab;
   	border: 8px solid #ffffff;
   	border-radius: 50%;
   	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   	cursor: pointer;
 }
-
 
 .range-toggle-min {
   	left: 0;
@@ -1506,8 +1485,7 @@ li.filter-option {
 
 .btn-transparent:hover {
   	color: #000000;
-
-  	background: #ffffff;
+	background: #ffffff;
 }
 
 .range-toggle-max {
@@ -1527,6 +1505,7 @@ li.filter-option {
 	line-height: 26px;
 	font-weight: bold;
 	font-weight: 700;
+	letter-spacing: 0.5px;
 }
 
 .hotel-title a {
@@ -1547,8 +1526,6 @@ li.filter-option {
 	display: inline-block;
 	width: 110px;
 	vertical-align: middle;
-	
-
 	font-size: 14px;
 	line-height: 21px;
 	color: #333333;	
@@ -1559,7 +1536,6 @@ li.filter-option {
 	margin-left: 10px;
 	width: 142px;
 	vertical-align: middle;
-	
 }
 
 .buttons-item {
@@ -1571,8 +1547,6 @@ li.filter-option {
 	height: 27px;
 	line-height: 27px;
 	min-width: 110px;
-	
-
 	font: inherit;
 	text-align: center;
 	vertical-align: middle;
@@ -1626,8 +1600,6 @@ li.filter-option {
 	line-height: 27px;
 	text-align: center;
 	vertical-align: middle;
-	
-
 	color: #666666;
 	background-color: #f2f2f2;
 }
@@ -1635,14 +1607,12 @@ li.filter-option {
 a.button-info {
 	display: inline-block;
 	width: 100px;
-	
 	margin-right: 2px;
 }
 
 a.button-book {
 	display: inline-block;
 	width: 142px;
-	
 }
 
 span.hotel-tipe {
@@ -1659,7 +1629,6 @@ span.price {
 	height: 27px;
 	margin-left: 0px;
 	font-weight: normal;
-	
 }
 
 div.information-item {
@@ -1686,8 +1655,8 @@ h3.hotel-title {
 	align-items: center;
 	padding: 20px 72px 20px 72px;
 	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 12px;
 }
-
 
 .rating {
 	list-style: none;
@@ -1699,7 +1668,6 @@ h3.hotel-title {
 	margin: 0;
 	padding: 0;	
 	margin-left: auto;
-	
 }
 
 span.rating-number {
@@ -1708,7 +1676,6 @@ span.rating-number {
 	text-align: center;
 	font-weight: normal;
 }
-
 
 .star-content-list {
 	display: flex;
@@ -1725,12 +1692,12 @@ span.rating-number {
 	display: flex;
 	list-style: none;
 	margin: 0;
+	margin-bottom: 14px;
 	padding: 0;
 	justify-content: space-between;
 	align-items: center;
 	width: 65px;
 	height: 30px;
-
 }
 
 .star-content-list.twostar {
@@ -1742,7 +1709,6 @@ span.rating-number {
 	height: 48px;
 	margin: 0;
 	padding: 0;
-
 }
 
 li.star-content-item {
@@ -1762,13 +1728,10 @@ div.description {
 	text-align: left;
 }
 
-
 .container-form {
     display: flex;
     justify-content: center;
 }
-
-
 
 .attraction-item:nth-child(1) {
 	width: 278px;

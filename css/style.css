@@ -1,14 +1,12 @@
 body {
 	margin: 0;
 	padding: 0;
-
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
-
 	background-color: #ffffff;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -23,15 +21,12 @@ a {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -51,7 +46,6 @@ input[type="radio"].visually-hidden {
 .main-navigation {
 	font-size: 14px;
 	line-height: 26px;
-	
 	color: #000000;
 	background-color: #ffffff;
 }
@@ -183,13 +177,6 @@ input[type="radio"].visually-hidden {
 	margin-top: 17px;
 }
 
-.advice-title {
-	font-size: 21px;
-	line-height: 26px;
-	font-weight: 700;
-	margin-bottom: 28px;
-}
-
 .advice-item {
 	width: 300px;
 	text-align: center;
@@ -252,20 +239,17 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	
+	justify-content: space-between;	
 }
 
 .feature-title {
 	margin-left: auto;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 p.feature-title {
 	margin-right: auto;
 	margin-left: auto;
-	
 	padding: 0;
 	text-align: center;
 	margin-top: 6px;
@@ -285,11 +269,9 @@ p.feature-title {
 	padding: 0px;
 	text-align: center;
 	background-color: #eeeeee;
-
 }
 
 .attraction-item {
-
 	width: 400px;
 	margin: 0;
 	padding: 0;
@@ -300,7 +282,6 @@ p.feature-title {
 }
 
 .attraction-title {
-	
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700px;
@@ -432,7 +413,6 @@ form.filter {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
 	display: flex;
 	justify-content: space-between;
 	height: 182px;
@@ -563,11 +543,11 @@ li.filter-option {
 .price-controls .min-price,
 .price-controls .max-price {
 	width: 90px;
-	padding-left: 65px;
+	padding-left: 59px;
 }
 
 .price-controls input {
-	width: 50px;
+	width: 65px;
 	margin: 0;
 	color: inherit;
 	font: inherit;
@@ -637,8 +617,6 @@ li.filter-option {
 	background: #ffffff;
 }
 
-
-
 .modal {
 	position: absolute;
 	left: 50%;
@@ -691,6 +669,7 @@ li.filter-option {
 	display: flex;
 	width: 458px;
 	margin-bottom: 30px;
+	position: relative;
 }
 
 .search-item label {
@@ -709,10 +688,6 @@ li.filter-option {
 	padding: 14px 40px 13px 13px;
 	border: none;
 	background-color: #f2f2f2;
-}
-
-.search-item {
-	position: relative;
 }
 
 .search-item svg {
@@ -884,9 +859,7 @@ li.filter-option {
 	display: block;
 }
 
-
 /* Footer */
-
 
 .footer {
 	display: flex;
@@ -954,7 +927,6 @@ li.filter-option {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	
 	background-repeat: no-repeat;
 }
 
@@ -997,9 +969,7 @@ li.filter-option {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 	font-weight: normal;
-
 }
 
 .button-website {
@@ -1209,7 +1179,6 @@ li.filter-option {
 	background: #ffffff;
 }
 
-
 /* catalog результаты поиска */
 
 .search-result-caption {
@@ -1237,7 +1206,6 @@ li.filter-option {
 	color: #000000;
 	background-color: #ffffff;
 	padding-bottom: 20px;
-
 }
 
 .search-result ul {
@@ -1288,7 +1256,6 @@ li.filter-option {
 	padding-left: 30px;
 	width: 680px;
 	padding-top: 10px;
-
 }
 
 .search-result-navigation h4,
@@ -1362,10 +1329,8 @@ li.filter-option {
 
 /* сложная форма поиска */
 
-
 .filter-range {
   	margin-bottom: 30px;
-
   	color: #ffffff;
   	text-transform: uppercase;
 	transform: translateY(0px);
@@ -1382,12 +1347,9 @@ li.filter-option {
 
 .price-controls {
   	position: relative;
-
   	height: 36px;
   	margin-bottom: 20px;
-
   	font-size: 0;
-
   	border: 2px solid #ffffff;
   	border-radius: 2px;
 }
@@ -1397,37 +1359,32 @@ li.filter-option {
   	position: absolute;
   	top: 50%;
   	left: 50%;
-
   	width: 2px;
   	height: 22px;
-
   	background: #ffffff;
   	transform: translate(-50%, -50%);
 }
 
 .price-controls label {
   	display: inline-block;
-
   	font-size: 14px;
   	line-height: 38px;
   	vertical-align: top;
-
   	cursor: pointer;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {
   	width: 90px;
-  	padding-left: 66px;
+  	padding-left: 44px;
+  	padding-right: 22px;
 }
 
 .price-controls input {
   	width: 50px;
   	margin: 0;
-
   	color: inherit;
   	font: inherit;
-
   	background: none;
   	border: none;
 }
@@ -1468,12 +1425,10 @@ li.filter-option {
   	display: block;
   	margin: 0 auto;
   	padding: 6px 35px;
-
   	font-size: 14px;
   	line-height: 20px;
   	color: #ffffff;
   	text-transform: uppercase;
-
   	background: transparent;
   	border: 2px solid #ffffff;
   	border-radius: 2px;
@@ -1560,10 +1515,8 @@ li.filter-option {
 	height: 27px;
 	line-height: 27px;
 	min-width: 110px;
-
 	margin-left: 4px;
 	min-width: 142px;
-
 	font: inherit;
 	text-align: center;
 	vertical-align: middle;

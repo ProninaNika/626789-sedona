@@ -166,7 +166,7 @@ input[type="radio"].visually-hidden {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700px;
-	margin-bottom: 28px;
+	margin-bottom: 23px;
 }
 
 .feature-subtitle {
@@ -182,7 +182,7 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 	background-image: url(img/icon-1.svg);
 	margin-top: 60px;
-	margin-bottom: 58px;
+	margin-bottom: 63px;
 	padding: 0px;
 }
 
@@ -540,12 +540,6 @@ li.filter-option {
 	cursor: pointer;
 }
 
-.price-controls .min-price,
-.price-controls .max-price {
-	width: 90px;
-	padding-left: 59px;
-}
-
 .price-controls input {
 	width: 65px;
 	margin: 0;
@@ -688,6 +682,8 @@ li.filter-option {
 	padding: 14px 40px 13px 13px;
 	border: none;
 	background-color: #f2f2f2;
+	font-size: 12px;
+	line-height: 26px;
 }
 
 .search-item svg {
@@ -1102,12 +1098,6 @@ li.filter-option {
 	cursor: pointer;
 }
 
-.price-controls .min-price,
-.price-controls .max-price {
-	width: 90px;
-	padding-left: 65px;
-}
-
 .price-controls input {
 	width: 50px;
 	margin: 0;
@@ -1346,10 +1336,6 @@ li.filter-option {
 }
 
 .price-controls {
-  	position: relative;
-  	height: 36px;
-  	margin-bottom: 20px;
-  	font-size: 0;
   	border: 2px solid #ffffff;
   	border-radius: 2px;
 }
@@ -1367,17 +1353,8 @@ li.filter-option {
 
 .price-controls label {
   	display: inline-block;
-  	font-size: 14px;
   	line-height: 38px;
   	vertical-align: top;
-  	cursor: pointer;
-}
-
-.price-controls .min-price,
-.price-controls .max-price {
-  	width: 90px;
-  	padding-left: 44px;
-  	padding-right: 22px;
 }
 
 .price-controls input {
@@ -1709,4 +1686,12 @@ div.description {
 
 .type-house {
     margin-left: 61px;	
+}
+
+.min-price {
+	width: 181px;
+}
+
+.max-price {
+	width: 131px;
 }

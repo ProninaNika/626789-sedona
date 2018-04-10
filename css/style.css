@@ -336,7 +336,7 @@ p.feature-title {
 	line-height: 26px;
 	font-weight: 700;
 	font-weight: normal;
-	margin-bottom: 41px;
+	margin-bottom: 43px;
 }	
 
 p.appointment-info {
@@ -596,7 +596,7 @@ li.filter-option {
 	display: block;
 	margin: 0 auto;
 	padding: 6px 35px;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 20px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -864,7 +864,6 @@ li.filter-option {
 	justify-content: space-around;
 	margin: 0;
 	padding: 36px 0px;
-	margin-top: 6px;
 }
 
 .footer.main {
@@ -1073,7 +1072,7 @@ li.filter-option {
 
 .price-controls {
 	position: relative;
-	height: 36px;
+	height: 32px;
 	margin-bottom: 20px;
 	font-size: 0;
 	border: 2px solid #ffffff;
@@ -1148,25 +1147,6 @@ li.filter-option {
 
 .range-toggle-max {
 	left: 80%;
-}
-
-.btn-transparent {
-	display: block;
-	margin: 0 auto;
-	padding: 6px 35px;
-	font-size: 14px;
-	line-height: 20px;
-	color: #ffffff;
-	text-transform: uppercase;
-	background: transparent;
-	border: 2px solid #ffffff;
-	border-radius: 2px;
-	cursor: pointer;
-}
-
-.btn-transparent:hover {
-	color: #000000;
-	background: #ffffff;
 }
 
 /* catalog результаты поиска */
@@ -1327,7 +1307,7 @@ li.filter-option {
 }
 
 .filter-range-title {
-  	margin-bottom: 6px;
+  	margin-bottom: 10px;
 	margin-left: 2px;
   	font-weight: 600;
   	font-size: 16px;
@@ -1335,26 +1315,11 @@ li.filter-option {
   	text-align: left; 
 }
 
-.price-controls {
-  	border: 2px solid #ffffff;
-  	border-radius: 2px;
-}
-
-.price-controls::after {
-  	content: "";
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	width: 2px;
-  	height: 22px;
-  	background: #ffffff;
-  	transform: translate(-50%, -50%);
-}
-
 .price-controls label {
   	display: inline-block;
   	line-height: 38px;
   	vertical-align: top;
+  	margin-top: -4px;
 }
 
 .price-controls input {
@@ -1399,25 +1364,12 @@ li.filter-option {
 }
 
 .btn-transparent {
-  	display: block;
-  	margin: 0 auto;
-  	padding: 6px 35px;
-  	font-size: 14px;
-  	line-height: 20px;
   	color: #ffffff;
-  	text-transform: uppercase;
-  	background: transparent;
   	border: 2px solid #ffffff;
   	border-radius: 2px;
-  	cursor: pointer;
-  	padding-right: 20px;
+  	padding-right: 33px;
   	padding-top: 4px;
   	margin-left: 85px;
-}
-
-.btn-transparent:hover {
-  	color: #000000;
-	background: #ffffff;
 }
 
 .range-toggle-max {
@@ -1492,7 +1444,8 @@ li.filter-option {
 	height: 27px;
 	line-height: 27px;
 	min-width: 110px;
-	margin-left: 4px;
+	margin-left: 2px;
+	margin-bottom: 4px;
 	min-width: 142px;
 	font: inherit;
 	text-align: center;
@@ -1585,7 +1538,7 @@ h3.hotel-title {
 	align-items: center;
 	padding: 20px 72px 20px 72px;
 	border-bottom: 1px solid #f2f2f2;
-	padding-bottom: 12px;
+	padding-bottom: 14px;
 }
 
 .rating {

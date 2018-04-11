@@ -64,6 +64,8 @@ input[type="radio"].visually-hidden {
 
 .site-navigation a {
 	color: #000000;
+	letter-spacing: 0.5px;
+	margin-left: 8px;
 }
 
 .site-navigation a:hover {
@@ -103,6 +105,7 @@ input[type="radio"].visually-hidden {
 
 .nav-item:nth-child(3) {
 	margin-left: 240px;
+	letter-spacing: 0.5px;
 }
 
 /*background picture*/
